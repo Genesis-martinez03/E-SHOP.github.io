@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+#principal
+{
+	width: 1480px;
+	height: auto; overflow: hidden;
+    margin:auto;
+}
+
+
+header{
+	width: 1480px;
+	overflow: hidden;
+	background: #ff8000;
+	margin-bottom: 20px;
+}
+.wrapper{
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	overflow: hidden;
+}
+
+header .logo{
+	color: aliceblue;
+	font-size: 110px;
+	line-height: 200px;
+	float: left;
+}
+header nav{
+	float: right;
+	line-height: 200px;
+}
+header nav a{
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 10px;
+	line-height:normal;
+	font-size: 20px; 
+	font-weight: bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+header nav a:hover {
+	background:  #9F9F9F;
+	border-radius: 50px;
+	
+}
+.header2{
+	position: fixed;
+	height: 100px;
+	
+}
+.header2 .logo{
+	line-height: 100px;
+	font-size: 30px;
+}
+.header2 nav{
+	line-height: 100px;
+}
+#slide
+{
+	padding-top: 100px;
+	margin-top: 15px;
+	width: 900px;
+	height: 250;
+}
+
+#categorias
+{
+	width: 1500px;
+	height: 500px;
+	border: 1px solid;
+	margin-top: 10px;
+}
+.parrafo
+{
+	color:#072FF2;
+	text-align: center;
+	padding: 10px;
+}
+.uno
+{
+	width: 400px;
+	height: 300px;
+	border: 1px solid #000;
+	float: left;
+	text-align: center;
+}
+
+.dos
+{
+	margin-left: 70px;
+	margin-right: 0px;
+}
+
+.decorar_botones
+{
+	text-decoration: none;
+	border: 3px solid #006699;
+	padding: 10px, 20px, 10px, 20px;
+	margin: 10px;
+
+	
+}
+
+
+.decorar_botones:hover
+{
+	background: #006696;
+	color: #FFFfff;
+	transition: background 2s, color 2s;
+}
+
+#info
+{
+	width: 1500px;
+	height: auto; overflow: hidden;
+	border: 1px solid #FFFFFF;
+	margin-top: 10px;
+}
+
+#izquierda
+{
+	width: 987px;
+	height: 300px;
+	border: 1px solid #000;
+	float: left;
+	padding: 5px;
+}
+.imagen
+{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+#derecha
+{
+	width: 493px;
+	height: 310px;
+	border: 1px solid #000;
+	float: right;
+}
+
+footer
+{
+	width: 1500px;
+	height: 100px;
+    text-align: center;
+}
+
+footer p
+{
+	width: auto; overflow: hidden;
+}
+

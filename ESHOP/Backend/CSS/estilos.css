@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #CDCDCD ;
+}
+header{
+	width: 100%;
+	overflow: hidden;
+	background: #ff8000;
+	margin-bottom: 20px;
+}
+.wrapper{
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	overflow: hidden;
+}
+.wrapper2{
+	padding-top: 10px;
+	align-content:stretch;
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	overflow: hidden;
+}
+
+header .logo{
+	color: aliceblue;
+	font-size: 110px;
+	line-height: 200px;
+	float: left;
+}
+header nav{
+	float: right;
+	line-height: 200px;
+}
+header nav a{
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 10px;
+	line-height:normal;
+	font-size: 20px; 
+	font-weight: bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+header nav a:hover {
+	background:  #9F9F9F;
+	border-radius: 50px;
+	
+}
+.header2{
+	position: fixed;
+	height: 100px;
+	
+}
+.header2 .logo{
+	line-height: 100px;
+	font-size: 30px;
+}
+.header2 nav{
+	line-height: 100px;
+}
+.contenido{
+	padding-top: 150px;
+}
+
+.contenido p{
+	margin-bottom: 1em;
+}
+.uno
+{
+	padding-top: 50px;
+	width: 491px;
+	height: 300px;
+	border: 1px solid #FFFFFF;
+	float: left;
+	text-align: center;
+}
+.uno1
+{
+	padding-top: 100px;
+	width: 491px;
+	height: 300px;
+	border: 9px solid #0000;
+	float: center;
+	text-align: center;
+}
+
+.dos
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.carrusel{
+	padding-top: 200px;
+}
+@media screen and (max-width: 950px){
+	header .logo,
+	header nav{
+		width: 100%;
+		text-align: center;
+		line-height: 100px;
+	}
+	.header2{
+		height: auto;
+	}
+	.header2 .logo, 
+	.heaver2 nav{
+		line-height: 50px;
+		
+	}
+}

@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+#principal
+{
+	width: 1500px;
+	height: 100%; overflow: hidden;
+	border: 5px solid #ADA8A8;
+    margin:0px;
+}
+header
+{
+	
+	
+}
+
+header nav a{
+	font-family:"Courier New";
+    display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 10px;
+	line-height:normal;
+	font-size: 18px;
+	font-weight: bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;}
+
+
+#logo
+{
+
+	width: 430px;
+	height: 130px;
+	border: 0px solid #000;
+	float:left;
+}
+#categorias
+{
+	width: 1500px;
+	height: 500px;
+	border: 1px solid;
+	margin-top: 10px;
+}
+.parrafo
+{
+	font-family: "antic-didone";
+	color:#FFFFFF;
+	text-align: left;
+	margin-bottom: 2em;
+	padding: 10px;
+}
+
+.wrapper{
+	width: 70%;
+	max-width: 1200px;
+	margin: auto;
+	overflow: hidden;
+}
+.uno
+{
+	
+	background: #6A6A6A;
+	width: 710px;
+	height: 725px;
+	border: 2px solid #6A6A6A;
+	float: right;
+	text-align: center;
+}
+.unodos
+{
+	
+	background: #FFFFFF;
+	width: 700px;
+	height: 720px;
+	border: 2px solid #FFFFFF;
+	float: left;
+	text-align: center;
+}
+.dos
+{
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.decorar_botones
+{
+	text-decoration: none;
+	border: 3px solid #006699;
+	padding: 10px, 20px, 10px, 20px;
+	margin: 10px;
+
+	
+}
+
+
+.decorar_botones:hover
+{
+	background: #006696;
+	color: #FFFfff;
+	transition: background 2s, color 2s;
+}
+
+#info
+{
+	width: 1500px;
+	height: auto; overflow: hidden;
+	border: 1px solid #FFFFFF;
+	margin-top: 10px;
+}
+
+#izquierda
+{
+	width: 987px;
+	height: 300px;
+	border: 1px solid #000;
+	float: left;
+	padding: 5px;
+}
+.imagen
+{
+	
+	
+}
+
+#derecha
+{
+	width: 493px;
+	height: 310px;
+	border: 1px solid #000;
+	float: right;
+}
+
+footer
+{
+	width: 1500px;
+	height: 1500px;
+    text-align: center;
+}
+
+footer p
+{
+	width: auto; overflow: hidden;
+}
