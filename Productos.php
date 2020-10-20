@@ -8,8 +8,7 @@
     <title> Productos </title>
     <link href="../Backend/CSS/productos2.css" rel="stylesheet" type="text/css">
 </head>
-    
-    <body class="wrapper2">
+    <body  background="img/fondo.jpeg">
 		
     <header class="header2">
 		<div class="wrapper">
@@ -68,8 +67,9 @@
      <input name="fecha" type="date" required id="precio" step="any"/>
      <br>
      <br>
-		
-      <?php include("CalculoProductos.php");	?>
+		<div class="uno">
+			<br>
+      <?php include("CalculoProductos.php");?></div>
      
      <br>
      <input type="file" id="files" name="files[]" />
@@ -115,6 +115,6 @@
 
      </script>
      </form>
-     
+     </section>
      </body>
      </html>

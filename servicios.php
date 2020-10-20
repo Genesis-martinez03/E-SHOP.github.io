@@ -9,7 +9,7 @@
     <link href="../Backend/CSS/productos2.css" rel="stylesheet" type="text/css">
 </head>
     
-    <body>
+    <body background="img/fondo.jpeg">
     <header class="header2">
 		<div class="wrapper">
 	      <div class="logo">E-SHOP</div>
@@ -57,8 +57,12 @@
      <label for="fecha"> Fecha de ingreso: </label>
      <input name="fecha" type="date" required id="precio" step="any"/>
      <br>
-     
-     
+     <br>
+		
+  		<div class="uno">
+			<br>
+      <?php include("CalculoProductos.php");?></div>
+
      
      <br>
      <input type="file" id="files" name="files[]" />

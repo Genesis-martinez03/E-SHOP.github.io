@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST["submit"])){
 	
-$checkbox = $_POST["producto2"];
+$checkbox = $_POST["producto"];
 	
 $suma = 0;
 	
